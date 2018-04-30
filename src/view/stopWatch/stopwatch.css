@@ -1,0 +1,19 @@
+:local(.stopwatch) {
+  left: 45%;
+  width: 10%;
+  position: relative;
+}
+
+:local(.displaytime) {
+  margin: 0 auto;
+  display: block;
+}
+
+:local(.button) {
+  margin: 0 auto;
+  display: block;
+}
+
+:local(.button:hover) {
+  background-color: #223322;
+}

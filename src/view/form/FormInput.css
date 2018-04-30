@@ -1,0 +1,20 @@
+:local(.statusBoxBase) {
+    margin: 8px;
+    padding: 8px;
+    color: whitesmoke;
+    border: 1px solid black;
+    background-color: #4D4E53;
+    transition: all ease 1s ;
+}
+
+:local(.statusBoxCorrect) {
+    composes: statusBoxBase;
+    background-color: deepskyblue;
+}
+
+:local(.statusBoxError) {
+    composes: statusBoxBase;
+    background-color: red;
+    border: #3e999f;
+}
+
